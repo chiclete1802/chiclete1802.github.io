@@ -439,4 +439,23 @@ video{
         font-size: 1.1rem;
         margin-bottom: 20vh;
     }
+    .texto-proj {
+        max-width: 90vw;
+    }
+    .display-flex{
+        display: block;
+    }
+    .descrição {
+        max-width: 90vw;
+        text-align: left;
+    }
+    video {
+        max-width: 90vw;
+    }
+    .img-proj {
+        width: 90vw;
+    }
+    .titulo-pag-proj {
+        width: 90vw;
+    }
 }
