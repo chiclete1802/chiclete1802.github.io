@@ -289,7 +289,7 @@ header.sticky .texto2-sel {
 .par-sobre{
     color: white;
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .texto-sobre{
@@ -309,6 +309,26 @@ header.sticky .texto2-sel {
     padding-bottom: 3vh;
 }
 
+.titulo-pag-proj{
+    padding-top: 5vh;
+    color: white;
+    font-size: 2.5rem;
+    text-align: left;
+    width: 70vw;
+    border: 0;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 3vh;
+}
+
+.descrição{
+    color: white;
+    text-align: justify;
+    font-size: 1rem;
+    max-width: 40vw;
+}
+
 .pag-contato{
     display: flex;
     justify-content: center;
@@ -321,13 +341,100 @@ header.sticky .texto2-sel {
     max-width: 40vw;
 }
 
+.texto-proj{
+    max-width: 70vw;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .subtitulo-cont{
     color: white;
     font-size: 1.5rem;
     text-align: left;
 }
 
+.subtitulo-pag-proj{
+    color: white;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
 i{
     font-size: 3rem;
     padding: 1vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.img-proj{
+    padding-top: 5vh;
+    width: 70vw;
+    object-fit: cover;
+}
+
+video{
+    max-width: 70vw;
+    margin-top: 5vh;
+}
+
+.main-pag{
+    display: flex;
+    align-items: center;
+}
+
+#main1{
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .texto1 {
+        width: 33vw;
+        font-size: 1.5rem;
+    }
+    .texto2 {
+        width: 33vw;
+        font-size: 1.5rem;
+    }
+    .texto1-sel {
+        width: 33vw;
+        font-size: 1.5rem;
+    }
+    .texto2-sel {
+        width: 33vw;
+        font-size: 1.5rem;
+    }
+    .titulo-p{
+        font-size: 3rem;
+    }
+    .subtitulo{
+        font-size: 1rem;
+    }
+    .section1 img {
+        width: 90vw;
+        height: 33vh;
+    }
+    .img-hover {
+        width: 90vw;
+        height: 33vh;
+    }
+    .texto-sobre {
+        max-width: 80vw;
+    }
+    .texto-cont {
+        max-width: 80vw;
+    }
+    .titulo-cont {
+        width: 80vw;
+    }
+    .subtitulo-cont {
+        font-size: 1.1rem;
+        margin-bottom: 20vh;
+    }
 }
