@@ -1,8 +1,10 @@
 body {
     width: 100%;
+    height: 100%;
     margin: 0;
     font-family: Poppins;
     background-color: #242424;
+    margin-bottom: 2vh;
 }
 
 .menu-principal {
@@ -210,7 +212,7 @@ header.sticky .texto2-sel {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 2vh;
 }
 
 .section1 img {
