@@ -395,6 +395,17 @@ video{
     object-fit: cover;
 }
 
+.img-icon{
+    height: 3rem;
+    padding: 1vw;
+}
+
+.sec-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .texto1 {
         width: 33vw;
