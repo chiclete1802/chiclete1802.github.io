@@ -407,7 +407,7 @@ video{
     justify-content: center;
 }
 
-.subtitulo-pag-proj: hover{
+.subtitulo-pag-proj a: hover{
     color: #36876f;
 }
 
